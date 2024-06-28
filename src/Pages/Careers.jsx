@@ -1,7 +1,11 @@
 import React from "react";
-
+import Header from "../components/Header";
 const Careers = () => {
-  return <div>Careers</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Careers;

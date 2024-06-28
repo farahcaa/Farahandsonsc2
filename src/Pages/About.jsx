@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 
-const Services = () => {
+const About = () => {
   return (
     <>
       <Header />
@@ -9,4 +9,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default About;

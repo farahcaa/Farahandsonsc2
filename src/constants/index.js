@@ -2,7 +2,7 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "/Home",
+    url: "/",
   },
   {
     id: "1",
@@ -22,6 +22,6 @@ export const navigation = [
   {
     id: "5",
     title: "Careers",
-    url: "/Contact",
+    url: "/Careers",
   },
 ];

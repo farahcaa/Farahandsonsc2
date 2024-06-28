@@ -2,15 +2,34 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home.jsx";
-import App from "./App.jsx";
 import "./index.css";
-import Aboutus from "./Pages/Aboutus";
+import About from "./Pages/About";
+import Projects from "./Pages/Projects";
+import Services from "./Pages/Services.jsx";
+import Careers from "./Pages/Careers.jsx";
+import ErrorPage from "./error-page.jsx";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
+  { path: "/", element: <Home img="" />, errorElement: <ErrorPage /> },
   {
     path: "/About-us",
-    element: <Aboutus />,
+    element: <About />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Projects",
+    element: <Projects />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Services",
+    element: <Services />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Careers",
+    element: <Careers />,
+    errorElement: <ErrorPage />,
   },
 ]);
 
