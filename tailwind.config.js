@@ -18,6 +18,9 @@ export default {
         xl: "1024px",
         twoxl: "1289px",
       },
+      fontFamily: {
+        source: ["Source Serif 4", "sans-serif"],
+      },
     },
   },
   plugins: [],
