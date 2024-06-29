@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
+import { HomeHeaderPic } from "../assets";
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header HeaderPic={HomeHeaderPic} />
     </>
   );
 };

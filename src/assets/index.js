@@ -1,3 +1,3 @@
-import Polygon from "./Polygon.svg";
 import HomeHeaderPic from "./HomeHeaderPic.svg";
-export { Polygon, HomeHeaderPic };
+import FarahandsonsPic from "./Farahandsonsimage.svg";
+export { HomeHeaderPic, FarahandsonsPic };

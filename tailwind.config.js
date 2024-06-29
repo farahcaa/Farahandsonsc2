@@ -11,6 +11,13 @@ export default {
         Black: "#000000",
         White: "#FFFFFF",
       },
+      screens: {
+        sm: "400px",
+        md: "640px",
+        lg: "768px",
+        xl: "1024px",
+        twoxl: "1289px",
+      },
     },
   },
   plugins: [],

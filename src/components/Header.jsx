@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { navigation } from "../constants";
-import { Polygon, HomeHeaderPic } from "../assets";
-const Header = () => {
+import { FarahandsonsPic } from "../assets";
+const Header = ({ HeaderPic }) => {
   return (
     <>
       <div className="z-30 absolute top-0 w-full shadow-2xl bg-white">
@@ -21,13 +21,13 @@ const Header = () => {
         </p> */}
         </div>
       </div>
-      <div className="absolute w-full h-[1vh] top-0 z-0">
-        <div className="absolute top-0 left-0 z-10">
-          <img src={Polygon} width={700} />
-        </div>
-        <div className="absolute top-0 right-0">
-          <img src={HomeHeaderPic} width={700} />
-        </div>
+      <div className="absolute w-full h-auto top-0 z-0">
+        <img src={FarahandsonsPic} className="absolute top-20 left-10 z-40 " />
+        <img
+          src={HeaderPic}
+          className="w-full md:h-full sm:h-[20rem] border object-cover border-black overflow-hidden"
+          height={1000}
+        />
       </div>
     </>
   );
