@@ -1,11 +1,23 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { navigation } from "../constants";
 import { FarahandsonsPic } from "../assets";
 const Header = ({ HeaderPic }) => {
+  const [isSticky, setSticky] = useState(false);
+
+  const checkScrollTop = () => {
+    setSticky(window.scrollY > 150);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", checkScrollTop);
+    return () => {
+      window.removeEventListener("scroll", checkScrollTop);
+    };
+  }, []);
   return (
     <>
-      <div className="flex relative w-full h-auto">
+      <div className="flex w-full h-auto">
         <div className="z-30 fixed top-0 w-full shadow-2xl bg-white">
           <div className="flex float-end ">
             {navigation.map((item) => (
@@ -22,8 +34,15 @@ const Header = ({ HeaderPic }) => {
         </p> */}
           </div>
         </div>
-        {/* make image sticky to top later */}
-        {/* <img src={FarahandsonsPic} className=" top-20 left-10 z-40 sticky" /> */}
+        <div className="absolute twoxl:top-[15rem] lg:top-[12rem] md:top-[8rem] md:left-8 z-40">
+          <img
+            src={FarahandsonsPic}
+            width={300}
+            className={`transition-all ${
+              isSticky ? "sticky1" : "lg:w-[350px] twoxl:w-[500px] sm:w-[150px]"
+            }`}
+          />
+        </div>
         <div className=" w-full h-auto top-0 z-0">
           <img
             src={HeaderPic}

@@ -7,3 +7,7 @@
 * {
   scroll-behavior: smooth;
 }
+
+.sticky1 {
+  @apply fixed top-0 w-[150px] transition-all;
+}

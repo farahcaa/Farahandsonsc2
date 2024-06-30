@@ -1,11 +1,15 @@
 import React from "react";
 import { HomeBuilding } from "../assets";
+import { Link } from "react-router-dom";
 
 const HomeExpert = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col">
-      <img src={HomeBuilding} className="md:w-1/2 sm:w-full pr-2" />
-      <div className="bg-DarkBlue w-1/2 sm:w-full sm:mt-5 pl-2">
+    <div className="flex md:flex-row sm:flex-col w-full ">
+      <img
+        src={HomeBuilding}
+        className="md:w-1/2 sm:w-full md:mb-0 sm:mb-2 pr-2"
+      />
+      <div className="bg-DarkBlue w-1/2 sm:w-full  pl-2">
         <h1 className="pt-4 text-white text-4xl font-serif flex justify-center font-semibold">
           Expertise
         </h1>
@@ -18,9 +22,12 @@ const HomeExpert = () => {
           that every client receives the attention and expertise their projects
           deserve.
         </p>
-        <p className="text-Orange text-xl pt-20 flex float-end pr-30">
+        <Link
+          className="text-Orange text-xl pt-20 flex justify-center pr-30 hover:cursor-pointer"
+          to={`/Services`}
+        >
           Learn More-&gt;
-        </p>
+        </Link>
       </div>
     </div>
   );
