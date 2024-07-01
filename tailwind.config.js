@@ -17,6 +17,7 @@ export default {
         lg: "768px",
         xl: "1024px",
         twoxl: "1289px",
+        threexl: "1600px",
       },
       fontFamily: {
         source: ["Source Serif 4", "sans-serif"],
