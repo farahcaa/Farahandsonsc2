@@ -26,15 +26,22 @@ export const navigation = [
     title: "Careers",
     url: "/Careers",
   },
+  {
+    id: "6",
+    title: "Courses",
+    url: "/Courses",
+  },
 ];
 
 export const socials = [
   {
     id: 1,
     src: Cell,
+    url: "tel:+1 (317)-833-0060",
   },
   {
     id: 2,
     src: Linkedin,
+    url: "https://www.linkedin.com/in/ken-farah-a202123a/",
   },
 ];

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { navigation } from "../constants";
 import { FarahandsonsPic } from "../assets";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import MenuSvg from "../assets/MenuSvg";
+import Menu from "./Menu";
 const Header = ({ HeaderPic }) => {
   const [isSticky, setSticky] = useState(false);
   const [openNavigation, setOpenNavigation] = useState(false);
@@ -37,20 +39,34 @@ const Header = ({ HeaderPic }) => {
   return (
     <>
       <div className="flex w-full h-auto">
-        <div className="z-30 fixed top-0 w-full shadow-2xl bg-white">
-          <div className="flex float-end ">
+        <div className={`z-30 fixed top-0 w-full shadow-2xl bg-white`}>
+          <div className="flex float-end h-14 ">
             {navigation.map((item) => (
-              <Link
+              <div
                 key={item.id}
-                to={item.url}
-                className="p-4 hover:cursor-pointer threexl:text-2xl font-serif"
+                className={` lg:flex sm:hidden h-14 flex items-center`}
               >
-                {item.title}
-              </Link>
+                <Link
+                  key={item.id}
+                  to={item.url}
+                  className={`${
+                    item.id === "6"
+                      ? "bg-Blue text-white font-semibold rounded-xl z-50  p-2 hover:cursor-pointer threexl:text-2xl font-serif"
+                      : ""
+                  }px-4 hover:cursor-pointer z-50 threexl:text-2xl font-serif`}
+                >
+                  {item.title}
+                </Link>
+              </div>
             ))}
-            {/* <p className="bg-Blue m-2 p-2 px-4  rounded-2xl hover:cursor-pointer hover:shadow-2xl hover:border-black text-white">
-          Courses
-        </p> */}
+
+            <button
+              className={`lg:hidden z-40 pr-4`}
+              onClick={toggleNavigation}
+            >
+              <MenuSvg openNavigation={openNavigation} />
+            </button>
+            <Menu openNav={openNavigation} togglenav={toggleNavigation} />
           </div>
         </div>
         <div className="absolute threexl:top-[20rem] twoxl:top-[15rem] lg:top-[12rem] md:top-[8rem] sm:top-[8rem] md:left-8 sm:left-8 z-40">
@@ -61,7 +77,7 @@ const Header = ({ HeaderPic }) => {
               isSticky
                 ? "sticky1"
                 : "threexl:w-[700px] lg:w-[350px] twoxl:w-[500px] sm:w-[150px]"
-            }`}
+            } ${openNavigation ? "hidden" : ""}`}
           />
         </div>
         <div className=" w-full h-auto top-0 z-0">

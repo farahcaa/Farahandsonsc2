@@ -4,8 +4,9 @@ import HomeBuilding from "./HomeBuilding.svg";
 import StreamPic from "./StreamPic.svg";
 import Cell from "./Cell.svg";
 import Linkedin from "./Linkedin.svg";
-import Line from "./FooterLine.svg";
-
+import AboutUsPic from "./AboutusPic.svg";
+import KenPic from "./KenPic.svg";
+import JeannePic from "./JeannePic.svg";
 export {
   HomeHeaderPic,
   FarahandsonsPic,
@@ -13,5 +14,7 @@ export {
   StreamPic,
   Cell,
   Linkedin,
-  Line,
+  AboutUsPic,
+  KenPic,
+  JeannePic,
 };

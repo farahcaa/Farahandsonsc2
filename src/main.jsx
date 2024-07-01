@@ -8,9 +8,10 @@ import Projects from "./Pages/Projects";
 import Services from "./Pages/Services.jsx";
 import Careers from "./Pages/Careers.jsx";
 import ErrorPage from "./error-page.jsx";
+import Courses from "./Pages/Courses.jsx";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home img="" />, errorElement: <ErrorPage /> },
+  { path: "/", element: <Home />, errorElement: <ErrorPage /> },
   {
     path: "/About-us",
     element: <About />,
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
   {
     path: "/Careers",
     element: <Careers />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/Courses",
+    element: <Courses />,
     errorElement: <ErrorPage />,
   },
 ]);

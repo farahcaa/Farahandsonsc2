@@ -3,12 +3,12 @@ import { StreamPic } from "../assets";
 
 const HomeLast = () => {
   return (
-    <div className=" mb-2 w-full mt-10 flex flex-row">
-      <div className="w-1/2 ">
-        <h1 className="flex justify-center font-serif font-semibold text-4xl">
+    <div className=" my-20 w-full flex lg:flex-row sm:flex-col ">
+      <div className="w-1/2 sm:w-full sm:pb-20 lg:pb-0">
+        <h1 className="flex threexl:text-7xl twoxl:text-6xl justify-center font-serif font-semibold text-4xl">
           At Farah & Sons, Inc.
         </h1>
-        <p className="pt-7 pl-5 font-serif">
+        <p className="pt-7 pl-5  threexl:text-4xl twoxl:text-3xl font-serif">
           We believe that the foundation of every great construction project
           lies in the strength of its engineering. Our unwavering dedication to
           quality engineering is more than just a commitment—it&apos;s our
@@ -18,8 +18,8 @@ const HomeLast = () => {
           about crafting infrastructure that stands the test of time.
         </p>
       </div>
-      <div className="w-1/2 flex items-center justify-center">
-        <img src={StreamPic} />
+      <div className="w-1/2 sm:w-full ">
+        <img src={StreamPic} className="object-cover w-full " />
       </div>
     </div>
   );

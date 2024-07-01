@@ -1,18 +1,19 @@
 import React from "react";
-import { FarahandsonsPic, Line } from "../assets";
+import { FarahandsonsPic } from "../assets";
 import { navigation, socials } from "../constants";
 import { Link } from "react-router-dom";
+import Linesvg from "../assets/Linesvg";
 
 const Footer = () => {
   return (
-    <div className="bg-Blue w-full">
-      <div className="flex flex-row">
+    <div className="bg-Blue w-full py-14">
+      <div className="flex md:flex-row sm:flex-col md:justify-start sm:justify-center sm:items-center">
         <img src={FarahandsonsPic} width={200} />
         <div className="flex flex-col w-full">
           <div className="flex pb-2 w-full  items-center justify-center">
             {navigation.map((item) => (
               <Link
-                className=" font-serif text-lg pt-5 px-2"
+                className="sm:hidden md:flex font-serif text-lg pt-5 px-2 threexl:text-3xl twoxl:text-xl"
                 key={item.key}
                 to={item.url}
               >
@@ -20,15 +21,17 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          <img src={Line} />
+          <Linesvg />
           <div className="flex flex-row justify-center py-2">
             {socials.map((item) => (
-              <img className="px-3" key={item.id} src={item.src} />
+              <a key={item.id} href={item.url} target="_blank">
+                <img className="px-3" key={item.id} src={item.src} />
+              </a>
             ))}
           </div>
         </div>
       </div>
-      <p className="text-white text-sm px-10 pb-5">
+      <p className="text-white text-sm px-10 pb-5 threexl:text-2xl">
         Farah & Sons, Inc. is a certified Minority Business Enterprise (MBE)
         with the City of Indianapolis and the State of Indiana; certified DBE
         with the State of Indiana. Quality Water & Engineering Project
