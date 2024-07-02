@@ -4,6 +4,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      display: ["group-hover"],
       colors: {
         Blue: "#00ADEF",
         Orange: "#AF5D63",
