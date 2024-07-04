@@ -1,12 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
-import { FarahandsonsPic } from "../assets";
+import { ServicesPic } from "../assets";
 import Footer from "../components/Footer";
+import ServicesHero from "../components/ServicesHero";
+import ServiceExpertise from "../components/ServiceExpertise";
 
 const Services = () => {
   return (
     <>
-      <Header />
+      <Header HeaderPic={ServicesPic} />
+      <ServicesHero />
+      <ServiceExpertise />
       <Footer />
     </>
   );

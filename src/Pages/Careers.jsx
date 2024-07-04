@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PositionCard from "../components/PositionCard";
+
 const Careers = () => {
   return (
     <>

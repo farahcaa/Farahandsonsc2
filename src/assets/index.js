@@ -11,6 +11,10 @@ import ProjectsPic from "./ProjectsPic.svg";
 import Layer1Pic1 from "./Layer1Pic1.svg";
 import Layer1Pic2 from "./Layer1Pic2.svg";
 import Layer1Pic3 from "./Layer1Pic3.svg";
+import excavation from "./excavation.jpg";
+import Layer3Pic1 from "./Layer3Pic1.png";
+import Layer3Pic2 from "./Layer3Pic2.png";
+import ServicesPic from "./ServicesPic.png";
 
 export {
   HomeHeaderPic,
@@ -26,4 +30,8 @@ export {
   Layer1Pic1,
   Layer1Pic2,
   Layer1Pic3,
+  excavation,
+  Layer3Pic1,
+  Layer3Pic2,
+  ServicesPic,
 };

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHref } from "react-router-dom";
 import { navigation } from "../constants";
 import { FarahandsonsPic } from "../assets";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
@@ -8,7 +8,7 @@ import Menu from "./Menu";
 const Header = ({ HeaderPic }) => {
   const [isSticky, setSticky] = useState(false);
   const [openNavigation, setOpenNavigation] = useState(false);
-
+  const pathname = useHref();
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
@@ -49,11 +49,15 @@ const Header = ({ HeaderPic }) => {
                 <Link
                   key={item.id}
                   to={item.url}
-                  className={`${
-                    item.id === "6"
+                  className={
+                    (item.id === "6"
                       ? "bg-Blue text-white font-semibold rounded-xl z-50  p-2 hover:cursor-pointer threexl:text-2xl font-serif"
-                      : ""
-                  }px-4 hover:cursor-pointer z-50 threexl:text-2xl font-serif`}
+                      : "") +
+                    (item.url === pathname
+                      ? "px-4 font-bold twoxl:text-lg threexl:text-3xl "
+                      : "") +
+                    "px-4 hover:cursor-pointer z-50 threexl:text-2xl font-serif"
+                  }
                 >
                   {item.title}
                 </Link>

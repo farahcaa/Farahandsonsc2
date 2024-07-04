@@ -58,7 +58,7 @@ const Layer1 = () => {
         </div>
         <div className="w-full flex justify-center h-1/2">
           <div
-            className=" roudned-xl pb-3 sm:w-[80%] w-[60%] hover:border-4 hover:border-Orange "
+            className="rounded-xl pb-3 sm:w-[80%] w-[60%] hover:border-4 hover:border-Orange "
             style={sectionStyle3}
           >
             <div className="group flex hover:backdrop-blur-sm  flex-col font-serif w-full h-full">

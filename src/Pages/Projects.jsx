@@ -4,6 +4,7 @@ import { ProjectsPic } from "../assets";
 import Footer from "../components/Footer";
 import Layer1 from "../components/Layer1";
 import Layer2 from "../components/Layer2";
+import Layer3 from "../components/Layer3";
 
 const Projects = () => {
   return (
@@ -11,6 +12,7 @@ const Projects = () => {
       <Header HeaderPic={ProjectsPic} />
       <Layer1 />
       <Layer2 />
+      <Layer3 />
       <Footer />
     </>
   );
