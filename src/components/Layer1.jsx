@@ -21,7 +21,7 @@ const Layer1 = () => {
     backgroundPosition: "center",
   };
   return (
-    <div className="flex py-5 h-auto sm:flex-col lg:flex-row">
+    <div className="flex py-5 h-auto sm:flex-col lg:flex-row twoxl:h-screen">
       <div className=" sm:w-full lg:w-1/2 flex justify-center lg:pr-10">
         <div
           className={` rounded-xl w-[85%] hover:border-4 hover:border-Orange `}

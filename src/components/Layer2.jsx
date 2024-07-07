@@ -8,9 +8,9 @@ const Layer2 = () => {
     backgroundPosition: "center",
   };
   return (
-    <div className="p-5 px-16 w-full">
+    <div className="p-5 px-16 w-full ">
       <div
-        className={` rounded-xl w-full flex justify-center h-[500px] hover:border-4 hover:border-Orange `}
+        className={` rounded-xl w-full flex justify-center h-[500px] threexl:h-[700px] hover:border-4 hover:border-Orange `}
         style={sectionStyle1}
       >
         <div className="group flex hover:backdrop-blur-sm  flex-col font-serif w-full h-full">

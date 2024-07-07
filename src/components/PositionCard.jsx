@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 const PositionCard = ({ title, location, link, id }) => {
   return (
-    <div className="w-full font-serif flex justify-center items-center flex-col">
-      <div className="w-[98%] border border-black rounded-xl mb-10 flex flex-col">
+    <div className="w-full font-serif flex justify-center items-center flex-col ">
+      <div className="w-[98%] border border-black rounded-xl mb-10 flex flex-col shadow-lg">
         <div className="flex flex-col pl-10">
           <h1 className="pb-10 mt-2 lg:text-2xl threexl:text-4xl text-xl">
             {title}

@@ -14,10 +14,10 @@ const Layer3 = () => {
     backgroundPosition: "center",
   };
   return (
-    <div className="w-full flex md:flex-row sm:flex-col p-3">
+    <div className="w-full flex lg:flex-row flex-col p-3 lg:h-[500px]">
       <div className="w-full flex justify-center pb-3">
         <div
-          className="rounded-xl pb-3 sm:w-[80%] w-[50%] hover:border-4 hover:border-Orange "
+          className="rounded-xl pb-3 sm:w-[80%] w-[50%]  hover:border-4 hover:border-Orange "
           style={sectionStyle1}
         >
           <div className="group flex hover:backdrop-blur-sm  flex-col font-serif w-full h-full">

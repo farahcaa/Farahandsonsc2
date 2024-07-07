@@ -20,7 +20,7 @@ const HomeExpert = () => {
           deserve.
         </p>
         <Link
-          className=" text-Orange xl:text-2xl threexl:text-4xl underline text-xl pt-20 flex justify-center pr-30 hover:cursor-pointer"
+          className=" text-Orange xl:text-2xl threexl:text-4xl sm:pb-10 md:pb-0 underline text-xl pt-20 flex justify-center pr-30 hover:cursor-pointer"
           to={`/Services`}
         >
           Learn More-&gt;

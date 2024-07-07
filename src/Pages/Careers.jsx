@@ -11,12 +11,14 @@ const Careers = () => {
       <h1 className="flex justify-center sm:text-3xl lg:text-5xl threexl:text-7xl py-10 font-serif">
         Available Positions:
       </h1>
-      <PositionCard
-        title="No Available Positions: Check Back Later"
-        location=""
-        link="/Careers"
-        id={0}
-      />
+      <div className="h-screen">
+        <PositionCard
+          title="No Available Positions: Check Back Later"
+          location=""
+          link="/Careers"
+          id={0}
+        />
+      </div>
       <Footer />
     </>
   );

@@ -4,6 +4,8 @@ import { ServicesPic } from "../assets";
 import Footer from "../components/Footer";
 import ServicesHero from "../components/ServicesHero";
 import ServiceExpertise from "../components/ServiceExpertise";
+import ServicesUs from "../components/ServicesUs";
+import Contact from "../components/Contact";
 
 const Services = () => {
   return (
@@ -11,6 +13,8 @@ const Services = () => {
       <Header HeaderPic={ServicesPic} />
       <ServicesHero />
       <ServiceExpertise />
+      <ServicesUs />
+      <Contact />
       <Footer />
     </>
   );
