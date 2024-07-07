@@ -4,37 +4,37 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "/",
+    url: "/farahandsonsv2/",
     selected: "#",
   },
   {
     id: "1",
     title: "About",
-    url: "/About-us",
+    url: "/farahandsonsv2/About-us",
     selected: "#About-us",
   },
   {
     id: "3",
     title: "Services",
-    url: "/Services",
+    url: "/farahandsonsv2/Services",
     selected: "#Services",
   },
   {
     id: "4",
     title: "Projects",
-    url: "/Projects",
+    url: "/farahandsonsv2/Projects",
     selected: "#Projects",
   },
   {
     id: "5",
     title: "Careers",
-    url: "/Careers",
+    url: "/farahandsonsv2/Careers",
     selected: "#Careers",
   },
   // {
   //   id: "6",
   //   title: "Courses",
-  //   url: "/Courses",
+  //   url: "/farahandsonsv2/Courses",
   //   selected: "#Courses",
   // },
 ];
