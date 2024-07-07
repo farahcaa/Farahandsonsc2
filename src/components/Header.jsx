@@ -54,7 +54,7 @@ const Header = ({ HeaderPic }) => {
                       ? "bg-Blue text-white font-semibold rounded-xl z-50  p-2 hover:cursor-pointer threexl:text-2xl font-serif"
                       : "") +
                     (item.url === pathname
-                      ? "px-4 font-bold twoxl:text-lg threexl:text-3xl "
+                      ? "px-4 font-bold twoxl:text-lg threexl:text-2xl "
                       : "") +
                     "px-4 hover:cursor-pointer z-50 threexl:text-2xl font-serif"
                   }

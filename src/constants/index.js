@@ -31,12 +31,12 @@ export const navigation = [
     url: "/Careers",
     selected: "#Careers",
   },
-  {
-    id: "6",
-    title: "Courses",
-    url: "/Courses",
-    selected: "#Courses",
-  },
+  // {
+  //   id: "6",
+  //   title: "Courses",
+  //   url: "/Courses",
+  //   selected: "#Courses",
+  // },
 ];
 
 export const socials = [

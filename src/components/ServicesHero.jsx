@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesHero = () => {
   return (
-    <div className=" threexl:my-20 w-full flex flex-col">
+    <div className=" py-10 threexl:my-20 w-full flex flex-col">
       <div className="w-full flex justify-center">
         <h1 className="flex justify-center font-serif font-semibold threexl:text-7xl twoxl:text-6xl text-4xl text-center threexl:w-[1300px] twoxl:w-[800px] w-[500px]">
           Services at Farah & Sons, Inc.
