@@ -11,3 +11,11 @@
 .sticky1 {
   @apply fixed top-0 w-[150px] transition-all;
 }
+
+.divimage {
+  @apply h-[50vh] w-[50%];
+}
+
+.image {
+  @apply h-[50vh] w-full;
+}
