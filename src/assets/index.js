@@ -4,7 +4,6 @@ import HomeBuilding from "./HomeBuilding.svg";
 import StreamPic from "./StreamPic.svg";
 import Cell from "./Cell.svg";
 import Linkedin from "./Linkedin.svg";
-import AboutUsPic from "./AboutusPic.svg";
 import KenPic from "./KenPic.svg";
 import JeannePic from "./JeannePic.svg";
 import ProjectsPic from "./ProjectsPic.svg";
@@ -16,7 +15,10 @@ import Layer3Pic1 from "./Layer3Pic1.png";
 import Layer3Pic2 from "./Layer3Pic2.png";
 import ServicesPic from "./ServicesPic.png";
 import careers from "./careers.png";
-
+import headpic from "./headpic1.jpg";
+import headpic2 from "./headpic2.jpg";
+import headpic3 from "./headpic3.jpg";
+import headpic4 from "./headpic4.jpg";
 export {
   HomeHeaderPic,
   FarahandsonsPic,
@@ -24,7 +26,6 @@ export {
   StreamPic,
   Cell,
   Linkedin,
-  AboutUsPic,
   KenPic,
   JeannePic,
   ProjectsPic,
@@ -36,4 +37,8 @@ export {
   Layer3Pic2,
   ServicesPic,
   careers,
+  headpic,
+  headpic2,
+  headpic3,
+  headpic4,
 };
