@@ -1,12 +1,5 @@
 import { Cell, Linkedin } from "../assets";
-import {
-  AboutUsPic,
-  careers,
-  excavation,
-  ProjectsPic,
-  StreamPic,
-  ServicesPic,
-} from "../assets";
+
 export const navigation = [
   {
     id: "0",

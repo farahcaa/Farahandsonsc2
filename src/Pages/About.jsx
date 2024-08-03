@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../components/Header";
-import { AboutUsPic, JeannePic, KenPic } from "../assets";
+import { JeannePic, KenPic } from "../assets";
 import AboutPersonRight from "../components/AboutPerson";
 import AboutPersonLeft from "../components/AboutPersonLeft";
 import Footer from "../components/Footer";
 const About = () => {
   return (
     <>
-      <Header HeaderPic={AboutUsPic} />
+      <Header />
       <div className="h-5" />
       <AboutPersonRight
         picture={KenPic}

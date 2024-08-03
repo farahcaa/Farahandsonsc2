@@ -7,7 +7,7 @@ import { careers } from "../assets";
 const Careers = () => {
   return (
     <>
-      <Header HeaderPic={careers} />
+      <Header />
       <h1 className="flex justify-center sm:text-3xl lg:text-5xl threexl:text-7xl py-10 font-serif">
         Available Positions:
       </h1>

@@ -5,7 +5,8 @@ import { FarahandsonsPic } from "../assets";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import MenuSvg from "../assets/MenuSvg";
 import Menu from "./Menu";
-const Header = ({ HeaderPic }) => {
+import HeaderCarosel from "./HeaderCarosel";
+const Header = () => {
   const [isSticky, setSticky] = useState(false);
   const [openNavigation, setOpenNavigation] = useState(false);
   const pathname = useHref();
@@ -38,7 +39,7 @@ const Header = ({ HeaderPic }) => {
   }, []);
   return (
     <>
-      <div className="flex w-full h-auto">
+      <div className="flex w-full h-auto overflow-hidden">
         <div className={`z-30 fixed top-0 w-full shadow-2xl bg-white`}>
           <div className="flex float-end h-14 ">
             {navigation.map((item) => (
@@ -84,12 +85,8 @@ const Header = ({ HeaderPic }) => {
             } ${openNavigation ? "hidden" : ""}`}
           />
         </div>
-        <div className=" w-full h-auto top-0 z-0">
-          <img
-            src={HeaderPic}
-            className="w-full md:h-full sm:h-[20rem] border object-cover border-black overflow-hidden"
-            height={1000}
-          />
+        <div className=" w-full h-[600px] top-0 z-0">
+          <HeaderCarosel />
         </div>
       </div>
     </>

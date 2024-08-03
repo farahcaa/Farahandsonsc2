@@ -9,7 +9,7 @@ import Layer3 from "../components/Layer3";
 const Projects = () => {
   return (
     <>
-      <Header HeaderPic={ProjectsPic} />
+      <Header />
       <Layer1 />
       <Layer2 />
       <Layer3 />

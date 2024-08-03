@@ -13,9 +13,9 @@
 }
 
 .divimage {
-  @apply h-[50vh] w-[50%];
+  @apply h-[70vh] w-[50%];
 }
 
 .image {
-  @apply h-[50vh] w-full;
+  @apply h-[70vh] w-full;
 }

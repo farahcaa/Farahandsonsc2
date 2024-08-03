@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <>
-      <Header HeaderPic={HomeHeaderPic} />
+      <Header />
       <HomeHero />
       <HomeExpert />
       <HomeLast />

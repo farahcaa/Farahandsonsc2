@@ -10,7 +10,7 @@ import Contact from "../components/Contact";
 const Services = () => {
   return (
     <>
-      <Header HeaderPic={ServicesPic} />
+      <Header />
       <ServicesHero />
       <ServiceExpertise />
       <ServicesUs />
