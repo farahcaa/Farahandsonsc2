@@ -21,8 +21,8 @@ const Layer1 = () => {
     backgroundPosition: "center",
   };
   return (
-    <div className="flex py-5 h-auto sm:flex-col lg:flex-row twoxl:h-screen">
-      <div className=" sm:w-full lg:w-1/2 flex justify-center lg:pr-10">
+    <div className="flex py-5 h-auto xs:flex-col lg:flex-row twoxl:h-screen">
+      <div className=" xs:w-full lg:w-1/2 flex justify-center lg:pr-10">
         <div
           className={` rounded-xl w-[85%] hover:border-4 hover:border-Orange `}
           style={sectionStyle1}
@@ -40,10 +40,10 @@ const Layer1 = () => {
           </div>
         </div>
       </div>
-      <div className="sm:w-full lg:w-1/2 sm:pt-10 lg:pt-0 flex flex-col ">
+      <div className="xs:w-full lg:w-1/2 xs:pt-10 lg:pt-0 flex flex-col ">
         <div className="w-full flex justify-center h-1/2 pb-3">
           <div
-            className="rounded-xl pb-3 sm:w-[80%] w-[60%] hover:border-4 hover:border-Orange "
+            className="rounded-xl pb-3 xs:w-[80%] w-[60%] hover:border-4 hover:border-Orange "
             style={sectionStyle2}
           >
             <div className="group flex hover:backdrop-blur-sm  flex-col font-serif w-full h-full">
@@ -58,7 +58,7 @@ const Layer1 = () => {
         </div>
         <div className="w-full flex justify-center h-1/2">
           <div
-            className="rounded-xl pb-3 sm:w-[80%] w-[60%] hover:border-4 hover:border-Orange "
+            className="rounded-xl pb-3 xs:w-[80%] w-[60%] hover:border-4 hover:border-Orange "
             style={sectionStyle3}
           >
             <div className="group flex hover:backdrop-blur-sm  flex-col font-serif w-full h-full">

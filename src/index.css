@@ -17,5 +17,11 @@
 }
 
 .image {
-  @apply h-[70vh] w-full;
+  @apply h-[70vh] w-full  object-cover;
 }
+
+/* @media (max-width: 450px) {
+  .responsive-sticky {
+    @apply fixed top-0 w-[150px] transition-all;
+  }
+} */

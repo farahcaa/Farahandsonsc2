@@ -4,7 +4,7 @@ const Linesvg = () => {
   return (
     <div className=" flex justify-center">
       <svg
-        className="overflow-hidden sm:w-[400px] lg:w-[600px]"
+        className="overflow-hidden xs:w-[400px] lg:w-[600px]"
         width="800"
         height="12"
         viewBox="0 0 800 12"

@@ -10,7 +10,7 @@ import Contact from "../components/Contact";
 const Services = () => {
   return (
     <>
-      <Header />
+      <Header homepage={false} />
       <ServicesHero />
       <ServiceExpertise />
       <ServicesUs />

@@ -17,7 +17,7 @@ const Layer3 = () => {
     <div className="w-full flex lg:flex-row flex-col p-3 lg:h-[500px]">
       <div className="w-full flex justify-center pb-3">
         <div
-          className="rounded-xl pb-3 sm:w-[80%] w-[50%]  hover:border-4 hover:border-Orange "
+          className="rounded-xl pb-3 xs:w-[80%] w-[50%]  hover:border-4 hover:border-Orange "
           style={sectionStyle1}
         >
           <div className="group flex hover:backdrop-blur-sm  flex-col font-serif w-full h-full">
@@ -32,7 +32,7 @@ const Layer3 = () => {
       </div>
       <div className="w-full flex pb-3 justify-center">
         <div
-          className="rounded-xl pb-3 sm:w-[80%] w-[50%] hover:border-4 hover:border-Orange "
+          className="rounded-xl pb-3 xs:w-[80%] w-[50%] hover:border-4 hover:border-Orange "
           style={sectionStyle2}
         >
           <div className="group flex hover:backdrop-blur-sm  flex-col font-serif w-full h-full">

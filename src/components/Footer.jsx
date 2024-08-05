@@ -7,13 +7,13 @@ import Linesvg from "../assets/Linesvg";
 const Footer = () => {
   return (
     <div className="bg-Blue w-full py-14">
-      <div className="flex md:flex-row sm:flex-col md:justify-start sm:justify-center sm:items-center">
+      <div className="flex md:flex-row xs:flex-col md:justify-start xs:justify-center xs:items-center">
         <img src={FarahandsonsPic} width={200} />
         <div className="flex flex-col w-full">
           <div className="flex pb-2 w-full  items-center justify-center">
             {navigation.map((item) => (
               <Link
-                className="sm:hidden md:flex font-serif text-lg pt-5 px-2 threexl:text-3xl twoxl:text-xl"
+                className="xs:hidden md:flex font-serif text-lg pt-5 px-2 threexl:text-3xl twoxl:text-xl"
                 key={item.key}
                 to={item.url}
               >

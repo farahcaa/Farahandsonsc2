@@ -9,7 +9,7 @@ import Layer3 from "../components/Layer3";
 const Projects = () => {
   return (
     <>
-      <Header />
+      <Header homepage={false} />
       <Layer1 />
       <Layer2 />
       <Layer3 />

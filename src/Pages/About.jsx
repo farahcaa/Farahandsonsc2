@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const About = () => {
   return (
     <>
-      <Header />
+      <Header homepage={false} />
       <div className="h-5" />
       <AboutPersonRight
         picture={KenPic}

@@ -9,7 +9,6 @@ import Services from "./Pages/Services.jsx";
 import Careers from "./Pages/Careers.jsx";
 import ErrorPage from "./error-page.jsx";
 import Courses from "./Pages/Courses.jsx";
-import Test from "./Pages/Test.jsx";
 
 const router = createBrowserRouter([
   { path: "/farahandsonsv2/", element: <Home />, errorElement: <ErrorPage /> },
@@ -36,11 +35,6 @@ const router = createBrowserRouter([
   {
     path: "/farahandsonsv2/Courses",
     element: <Courses />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/farahandsonsv2/Test",
-    element: <Test />,
     errorElement: <ErrorPage />,
   },
 ]);

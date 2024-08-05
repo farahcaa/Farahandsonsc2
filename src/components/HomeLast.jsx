@@ -3,8 +3,8 @@ import { StreamPic } from "../assets";
 
 const HomeLast = () => {
   return (
-    <div className=" my-20 w-full flex lg:flex-row sm:flex-col ">
-      <div className="w-1/2 sm:w-full sm:pb-20 lg:pb-0">
+    <div className=" my-20 w-full flex lg:flex-row xs:flex-col ">
+      <div className="w-1/2 xs:w-full xs:pb-20 lg:pb-0">
         <h1 className="flex threexl:text-7xl twoxl:text-6xl justify-center font-serif font-semibold text-4xl">
           At Farah & Sons, Inc.
         </h1>
@@ -18,7 +18,7 @@ const HomeLast = () => {
           about crafting infrastructure that stands the test of time.
         </p>
       </div>
-      <div className="w-1/2 sm:w-full ">
+      <div className="w-1/2 xs:w-full ">
         <img src={StreamPic} className="object-cover w-full " />
       </div>
     </div>

@@ -8,7 +8,7 @@ const HomeHero = () => {
           Quality Work by a Family Owned Company
         </h1>
       </div>
-      <div className=" md:w-1/2 sm:w-3/4 pt-5">
+      <div className=" md:w-1/2 xs:w-3/4 pt-5">
         <p className="py-4 pl-7 threexl:text-4xl twoxl:text-3xl font-serif text-xl">
           Farah & Sons, Inc. is a small, locally-owned, family-run company which
           specializes in construction inspection.

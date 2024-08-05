@@ -13,6 +13,7 @@ export default {
         White: "#FFFFFF",
       },
       screens: {
+        xs: "360px",
         sm: "400px",
         md: "640px",
         lg: "768px",

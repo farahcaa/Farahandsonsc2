@@ -1,8 +1,8 @@
 import React from "react";
-import { excavation } from "../assets";
+import { excavation, launchshaft } from "../assets";
 const Layer2 = () => {
   const sectionStyle1 = {
-    backgroundImage: `url(${excavation})`,
+    backgroundImage: `url(${launchshaft})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -17,7 +17,7 @@ const Layer2 = () => {
           <h1 className="invisible group-hover:visible text-white flex text-5xl justify-center py-10">
             Project Name
           </h1>
-          <p className="invisible group-hover:visible text-white md:text-3xl justify-center py-10 sm:text-xl">
+          <p className="invisible group-hover:visible text-white md:text-3xl justify-center py-10 xs:text-xl">
             Project description: Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Blanditiis praesentium doloremque ad explicabo
             autem odit esse quo! Ducimus quae quisquam dolorum ipsum deleniti

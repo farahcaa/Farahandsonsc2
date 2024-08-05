@@ -8,7 +8,7 @@ const ServicesHero = () => {
           Services at Farah & Sons, Inc.
         </h1>
       </div>
-      <div className=" md:w-1/2 sm:w-3/4 pt-5">
+      <div className=" md:w-1/2 xs:w-3/4 pt-5">
         <p className="py-4 pl-7 threexl:text-4xl twoxl:text-3xl font-serif text-xl">
           At Farah & Sons, Inc., we take pride in offering a suite of
           specialized services tailored to meet the diverse needs of our

@@ -6,7 +6,7 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import MenuSvg from "../assets/MenuSvg";
 import Menu from "./Menu";
 import HeaderCarosel from "./HeaderCarosel";
-const Header = () => {
+const Header = ({ homepage }) => {
   const [isSticky, setSticky] = useState(false);
   const [openNavigation, setOpenNavigation] = useState(false);
   const pathname = useHref();
@@ -39,13 +39,13 @@ const Header = () => {
   }, []);
   return (
     <>
-      <div className="flex w-full h-auto overflow-hidden">
+      <div className="flex w-full h-[70vh] overflow-hidden">
         <div className={`z-30 fixed top-0 w-full shadow-2xl bg-white`}>
           <div className="flex float-end h-14 ">
             {navigation.map((item) => (
               <div
                 key={item.id}
-                className={` lg:flex sm:hidden h-14 flex items-center`}
+                className={` lg:flex xs:hidden h-14 flex items-center`}
               >
                 <Link
                   key={item.id}
@@ -74,19 +74,19 @@ const Header = () => {
             <Menu openNav={openNavigation} togglenav={toggleNavigation} />
           </div>
         </div>
-        <div className="absolute threexl:top-[20rem] twoxl:top-[15rem] lg:top-[12rem] md:top-[8rem] sm:top-[8rem] md:left-8 sm:left-8 z-40">
+        <div className="absolute threexl:top-[20rem] twoxl:top-[15rem] lg:top-[12rem] md:top-[8rem] xs:top-[8rem] md:left-8 xs:left-8 z-40">
           <img
             src={FarahandsonsPic}
             width={300}
             className={`transition-all ${
               isSticky
-                ? "sticky1"
-                : "threexl:w-[700px] lg:w-[350px] twoxl:w-[500px] sm:w-[150px]"
+                ? "sticky1 responsive-sticky"
+                : "responsive-sticky threexl:w-[700px] lg:w-[350px] twoxl:w-[500px] xs:w-[250px]"
             } ${openNavigation ? "hidden" : ""}`}
           />
         </div>
-        <div className=" w-full h-[600px] top-0 z-0">
-          <HeaderCarosel />
+        <div className=" w-full h-[600px] top-0 z-0 ">
+          <HeaderCarosel homepage={homepage} />
         </div>
       </div>
     </>
