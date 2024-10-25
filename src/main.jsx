@@ -11,29 +11,29 @@ import ErrorPage from "./error-page.jsx";
 import Courses from "./Pages/Courses.jsx";
 
 const router = createBrowserRouter([
-  { path: "/farahandsonsv2/", element: <Home />, errorElement: <ErrorPage /> },
+  { path: "/", element: <Home />, errorElement: <ErrorPage /> },
   {
-    path: "/farahandsonsv2/About-us",
+    path: "/About-us",
     element: <About />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/farahandsonsv2/Projects",
+    path: "/Projects",
     element: <Projects />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/farahandsonsv2/Services",
+    path: "/Services",
     element: <Services />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/farahandsonsv2/Careers",
+    path: "/Careers",
     element: <Careers />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/farahandsonsv2/Courses",
+    path: "/Courses",
     element: <Courses />,
     errorElement: <ErrorPage />,
   },

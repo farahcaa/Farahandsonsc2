@@ -4,31 +4,31 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "/farahandsonsv2/",
+    url: "/",
     selected: "#",
   },
   {
     id: "1",
     title: "About",
-    url: "/farahandsonsv2/About-us",
+    url: "/About-us",
     selected: "#About-us",
   },
   {
     id: "3",
     title: "Services",
-    url: "/farahandsonsv2/Services",
+    url: "/Services",
     selected: "#Services",
   },
   {
     id: "4",
     title: "Projects",
-    url: "/farahandsonsv2/Projects",
+    url: "/Projects",
     selected: "#Projects",
   },
   {
     id: "5",
     title: "Careers",
-    url: "/farahandsonsv2/Careers",
+    url: "/Careers",
     selected: "#Careers",
   },
   // {
