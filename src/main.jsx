@@ -13,27 +13,27 @@ import Courses from "./Pages/Courses.jsx";
 const router = createBrowserRouter([
   { path: "/", element: <Home />, errorElement: <ErrorPage /> },
   {
-    path: "/About-us",
+    path: "farahandsons.com/About-us",
     element: <About />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/Projects",
+    path: "farahandsons.com/Projects",
     element: <Projects />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/Services",
+    path: "farahandsons.com/Services",
     element: <Services />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/Careers",
+    path: "farahandsons.com/Careers",
     element: <Careers />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/Courses",
+    path: "farahandsons.com/Courses",
     element: <Courses />,
     errorElement: <ErrorPage />,
   },
