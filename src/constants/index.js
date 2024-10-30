@@ -102,3 +102,27 @@ export const whyus = [
     body: "A local company with a global mindset, investing in the places we work.",
   },
 ];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Project 1",
+    link: "https://www.google.com",
+    picture: "https://via.placeholder.com/150",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor.",
+  },
+  {
+    id: 1,
+    title: "Project 2",
+    link: "https://www.google.com",
+    picture: "https://via.placeholder.com/150",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor.",
+  },
+  {
+    id: 2,
+    title: "Project 3",
+    link: "https://www.google.com",
+    picture: "https://via.placeholder.com/150",
+    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor.",
+  },
+];
