@@ -17,8 +17,8 @@ const Project = ({ title, link, picture, text }) => {
             </Link>
           </div>
         </div>
-        <div className="w-full border">
-          <img src={picture} />
+        <div className="w-full border flex justify-center items-center">
+          <img src={picture} className="w-[75%] h-[75%]" />
         </div>
       </div>
     </div>

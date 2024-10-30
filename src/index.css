@@ -19,6 +19,26 @@
 .image {
   @apply h-[70vh] w-full  object-cover;
 }
+.fade-in-left {
+  opacity: 0; /* Start with the text hidden */
+  transform: translateX(-50px); /* Start 50px to the left */
+  transition: opacity 2s, transform 2s; /* Define the transition */
+}
+
+.fade-in-left.visible {
+  opacity: 1; /* End fully opaque */
+  transform: translateX(0); /* End at the original position */
+}
+.fade-in-right {
+  opacity: 0; /* Start with the text hidden */
+  transform: translateX(50px); /* Start 50px to the left */
+  transition: opacity 2s, transform 2s; /* Define the transition */
+}
+
+.fade-in-right.visible {
+  opacity: 1; /* End fully opaque */
+  transform: translateX(0); /* End at the original position */
+}
 
 /* @media (max-width: 450px) {
   .responsive-sticky {

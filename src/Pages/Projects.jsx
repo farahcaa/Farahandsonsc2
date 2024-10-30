@@ -6,6 +6,7 @@ import { projects } from "../constants";
 import Footer from "../components/Footer";
 
 const Projects = () => {
+  console.log(projects);
   return (
     <>
       <Header homepage={false} />
