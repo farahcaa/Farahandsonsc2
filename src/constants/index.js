@@ -106,17 +106,17 @@ export const whyus = [
 export const projects = [
   {
     id: 0,
-    title: "Project 1",
-    link: "https://www.google.com",
+    title: "Citizens-Belmont, A.W.T Ferrous Building",
+    link: "/Projects/Belmont",
     picture: "https://via.placeholder.com/150",
     text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor.",
   },
   {
     id: 1,
-    title: "Project 2",
-    link: "https://www.google.com",
+    title: "Citizens-O.N.S WALL TIES",
+    link: "/Projects/ONS",
     picture: "https://via.placeholder.com/150",
-    text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor. felis auctor, consectetur adipiscing elit. Proin eget. felis auctor.",
+    text: "ONS(oxygen notification system) facilities"
   },
   {
     id: 2,
