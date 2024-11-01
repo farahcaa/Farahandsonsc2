@@ -1,14 +1,15 @@
-import react from "react"
+import react from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-const BelmontPage = () =>{
+const BelmontPage = () => {
+  return (
+    <>
+      <Header homepage={false} />
 
-    return(<>
-        <Header homepage={false} />
-        <div className="h-5" />
-        
-        <div className="h-5" />
-        <Footer />
-      </>);
+      <Footer />
+    </>
+  );
 };
 
 export default BelmontPage;
