@@ -9,9 +9,15 @@ import Services from "./Pages/Services.jsx";
 import Careers from "./Pages/Careers.jsx";
 import ErrorPage from "./error-page.jsx";
 import Courses from "./Pages/Courses.jsx";
+import BelmontPage from "./Pages/BelmontPage.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home />, errorElement: <ErrorPage /> },
+  {
+    path: "/Projects/Belmont",
+    element: <BelmontPage />,
+    errorElement: <ErrorPage />,
+  },
   {
     path: "About-us",
     element: <About />,
@@ -43,7 +49,6 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
 ]);
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
