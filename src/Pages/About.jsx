@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 import { JeannePic, KenPic } from "../assets";
 import AboutPersonRight from "../components/AboutPerson";
 import AboutPersonLeft from "../components/AboutPersonLeft";
 import Footer from "../components/Footer";
 const About = () => {
+  useEffect(() =>{
+    window.scrollTo(0,0);
+  }, [])
   return (
     <>
       <Header homepage={false} />
