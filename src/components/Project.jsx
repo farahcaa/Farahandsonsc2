@@ -11,7 +11,11 @@ const Project = ({ title, link, picture, text }) => {
       <div className="w-full h-full flex flex-col lg:flex-row">
         <div className="w-full flex p-5 items-center text-center justify-center">
           <div className="">
-            {text.map((item)=>(<p className="mx-5 mt-2" key={item.index}>{item.message}</p>))}
+            {text.map((item) => (
+              <p className="mx-5 mt-2" key={item.index}>
+                {item.message}
+              </p>
+            ))}
           </div>
         </div>
         <div className="w-full flex justify-center items-center">
@@ -19,7 +23,7 @@ const Project = ({ title, link, picture, text }) => {
             <img
               src={picture}
               alt="construction image"
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full rounded-xl shadow-xl"
             />
           </div>
         </div>

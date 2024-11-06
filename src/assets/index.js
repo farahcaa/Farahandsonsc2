@@ -23,7 +23,13 @@ import Box from "./Box.jpg";
 import Levee from "./Levee.jpg";
 import Ls from "./LS.jpg";
 import launchshaft from "./Launch-Shaft.jpg";
+import LastOne from "./LastOne.png";
+import BelmontPic from "./BelmontPic.png";
+import damPic from "./damPic.png";
 export {
+  BelmontPic,
+  damPic,
+  LastOne,
   HomeHeaderPic,
   FarahandsonsPic,
   HomeBuilding,
