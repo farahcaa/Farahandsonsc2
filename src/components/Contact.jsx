@@ -5,13 +5,13 @@ import { send } from "emailjs-com";
 const Contact = () => {
   const [toSend, setToSend] = useState({
     from_name: "",
-    to_name: "",
+    to_name: "Jeanne",
     message: "",
     reply_to: "",
   });
   const onSubmit = (e) => {
     e.preventDefault();
-    send("", "", toSend, "")
+    send("service_sqqqnpz", "template_v27uonl", toSend, "1OMYQKws2ThU69vXV")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
@@ -37,8 +37,16 @@ const Contact = () => {
       >
         <input
           type="text"
+          name="from_name"
+          placeholder="Your Name"
+          className="border border-black bg-DarkBlue rounded-full xs:w-[80%] md:w-[60%] lg:w-[40%] threexl:w-[30%] h-16 text-xl pl-4 text-white mb-10"
+          value={toSend.from_name}
+          onChange={handleChange}
+        />
+        <input
+          type="text"
           name="reply_to"
-          placeholder="Email"
+          placeholder="Your Email"
           className="border border-black bg-DarkBlue rounded-full xs:w-[80%] md:w-[60%] lg:w-[40%] threexl:w-[30%] h-16 text-xl pl-4 text-white mb-10"
           value={toSend.reply_to}
           onChange={handleChange}
